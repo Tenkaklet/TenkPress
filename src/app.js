@@ -4,7 +4,7 @@ var posts = require('./mock/posts.json');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('<h1>My name is Max</h1>');
+  res.send('<h1>My name is Peter</h1>');
 });
 
 app.get('/blog', function (req,res) {
